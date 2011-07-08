@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+cons = ['b', 'p', 'v'][rand(3)]
+voy = ['a', 'e', 'i', 'o', 'u', 'ou', 'ua', 'ra', 're', 'ue'][rand(10)]
+puts "#{cons}#{voy}l#{cons}e"
